@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment{
-        server_ip="{13.235.244.133}"
+        server_ip="13.235.244.133"
     }
     
     stages {
