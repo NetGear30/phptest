@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Deploy') {
             steps {
-                bat 'scp -r ${WORKSPACE}/* root@${server_ip}:/C:/inetpub/wwwroot/'
+                bat 'scp -r ${WORKSPACE}/* Administrator@${server_ip}:/C:/inetpub/wwwroot/'
             }
         }
     }
